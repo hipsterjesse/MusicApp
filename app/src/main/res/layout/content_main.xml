@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    tools:context="studio6ty9.musicapp.MainActivity">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="300px"
+        android:id="@+id/listViewSongs"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Test Music"
+        android:id="@+id/buttonPlayMusic"
+        android:layout_below="@+id/listViewSongs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:onClick="buttonPlayMusic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Test Music"
+        android:id="@+id/button"
+        android:onClick="buttonStopMusic"
+        android:layout_below="@+id/buttonPlayMusic"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

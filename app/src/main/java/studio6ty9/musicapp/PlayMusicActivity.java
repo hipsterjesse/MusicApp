@@ -1,7 +1,6 @@
 package studio6ty9.musicapp;
 
 import android.content.Context;
-import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -29,7 +28,7 @@ public class PlayMusicActivity extends AppCompatActivity {
     private static SeekBar seekBar;
     private static TextView textView;
     private AudioManager audioManager;
-    private ToggleButton togleButtonPlayStop;
+    private ToggleButton toggleButtonPlayStop;
     private static List<Song> songs;
 
     @Override
@@ -64,9 +63,9 @@ public class PlayMusicActivity extends AppCompatActivity {
         firstStartMusic();
         seekBarVolume();
 
-        togleButtonPlayStop = (ToggleButton) findViewById(R.id.toggleButtonPlayStop);
-        togleButtonPlayStop.setChecked(true);
-        togleButtonPlayStop.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        toggleButtonPlayStop = (ToggleButton) findViewById(R.id.toggleButtonPlayStop);
+        toggleButtonPlayStop.setChecked(true);
+        toggleButtonPlayStop.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     resumeMusic();

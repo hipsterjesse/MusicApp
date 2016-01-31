@@ -1,3 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_57b114c44153252a4fd148c75095c52dbefb1857.jar" />
+    </item>
+    <item
+        jar="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_177221b59d51813ba1058129431fb2af3e74e716.jar" />
+    </item>
+    <item
+        jar="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_6fb142f23a3fdb74599509cbfd2e3f171bfccc32.jar" />
+    </item>
+    <item
+        jar="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_836b3b83fdf4d87fc66d586a67c3e017bcc4ed08.jar" />
+    </item>
+    <item
+        jar="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_f427e81ba57235edf215b6c450948b46d79706f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\muxim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_e6ba7e0bd381ed9f5c9e65d9cd681419da64db97.jar" />
+    </item>
+    <item
+        jar="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_8ac52c8eeeffbfddb858fd86a3b5c7d2d05b4217.jar" />
+    </item>
+    <item
+        jar="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\muxim\Desktop\Privat\Projecte\Git Repository\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_97083a7c630e7c14826ff3b380c58a4b37851952.jar" />
+    </item>
+
+</items>
